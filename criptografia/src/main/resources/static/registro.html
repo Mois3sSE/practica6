@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+
+<body>
+    <h1>Registro</h1>
+    <form id="formRegistro">
+        <p>Ingresa un id (Nombre)</p>
+        <label for="id">Id: </label>
+        <input type="text" id="id" name="id" placeholder="Ingresa tu id " required>
+        <br>
+        <p>Ingresa una contraseña</p>
+        <label for="pwd">Contraseña</label>
+        <input type="password" id="pwd" name="pwd" placeholder="ingresa tu contraseña" required>
+        <br>
+        <p>Confirma tu contraseña</p>
+        <label for="pwd2">Contraseña</label>
+        <input type="password" id="pwd2" name="pwd2" placeholder="confirma tu contraseña" required>
+        <br>
+        <p>Ingresa tu correo electrónico</p>
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" placeholder="Ingresa tu correo electronico" required>
+        <br>
+        <button type="submit">Subir datos</button>
+    </form>
+
+    <p>¿ Ya tienes una cuenta ?</p>
+    <a href="index.html">Inicia sesión</a>
+    <script src="./js/peticiones.js"></script>
+</body>
+
+</html>

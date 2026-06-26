@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reestablecer contraseña </title>
+</head>
+
+<body>
+    <h1>Reestablece tu contraseña </h1>
+    <p>Ingresa el código de 6 dígitos que enviamos a tu correo y escribe tu nueva contraseña.</p>
+    <p>Cambiando contraseña para el usuario: <strong id="usuarioRecuperacion">Cargando...</strong></p>
+
+    <form id="formCambiarPwd">
+        <label for="codigo">Código de verificación </label>
+        <input type="text" id="codigo" placeholder="Ingresa el código de 6 dígitos" required>
+        <br>
+        <label for="nuevaPwd">Nueva contraseña </label>
+        <input type="password" id="nuevaPwd" placeholder="Ingresa tu nueva contraseña" required>
+        <br>
+        <label for="nuevaPwd2">Confirmar Nueva Contraseña:</label><br>
+        <input type="password" id="nuevaPwd2" placeholder="Repite tu nueva contraseña" required>
+        <br>
+        <button type="submit">Cambiar contraseña</button>
+    </form>
+    <p><a href="./index.html">Cancelar y volver al inicio de sesión.</a></p>
+    <script src="./js/peticiones.js"></script>
+</body>
+
+</html>
