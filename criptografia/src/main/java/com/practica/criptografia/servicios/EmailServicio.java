@@ -31,6 +31,7 @@ public class EmailServicio {
             System.err.println("Motivo exacto del fallo:");
             e.printStackTrace();
             System.err.println("=========================================");
+            throw new RuntimeException("Error de red al conectar con Gmail");
         }
     }
 }
